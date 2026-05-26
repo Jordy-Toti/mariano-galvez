@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos - E.O.U.M. Mariano Gálvez JM</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: #f0f4f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; color: #333; }
+        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; max-width: 450px; width: 90%; animation: fadeIn 1.2s ease-out; }
+        .logo { max-width: 180px; margin-bottom: 25px; animation: scaleUp 1s ease-out; }
+        h1 { color: #004A99; font-size: 24px; margin-bottom: 10px; }
+        h2 { color: #555; font-size: 16px; margin-bottom: 30px; font-weight: 500; }
+        .btn { display: inline-block; background: #004A99; color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(0,74,153,0.3); }
+        .btn:hover { background: #003366; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,74,153,0.4); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes scaleUp { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img class="logo" src="Captura de pantalla 2026-05-07 213130.png" alt="Logo Escuela">
+        <h1>¡Bienvenidos a la Escuela!</h1>
+        <h2>Escuela Oficial Urbana Mixta<br>Mariano Gálvez JM</h2>
+        
+        <a class="btn" href="https://docs.google.com/document/d/1ObMkOO6KMVbDxObTbVdZNT7cvSbQUsVMFpV1dwhOFcM/edit?usp=drive_link" target="_blank">
+            Ver Informe 2026
+        </a>
+    </div>
+<script src="qr.js"></script>
+</body>
+</html>
